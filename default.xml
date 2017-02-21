@@ -9,7 +9,7 @@
 
   <remote  name="github"
            fetch=".." 
-           revision="refs/head/Android-N-working" />
+           revision="refs/heads/Android-N-working" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" remote="aosp">
     <copyfile src="core/root.mk" dest="Makefile" />
